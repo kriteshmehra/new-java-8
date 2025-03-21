@@ -1,0 +1,119 @@
+Git Commands ( https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html )
+
+## Reset / Revert
+git reset --hard commit-id revert the commit using commit-id (pushed the commit)
+git reset --hard HEAD~1
+git reset --hard origin/branchName  		# to reset it to whatever the origin was at.
+git stash 		##Discard all local changes, but save them for possible re-use later
+
+## Remove all commits which are their in push commit area of intellij.
+git reset --hard origin/branchName  		# to reset it to whatever the origin was at.
+
+## revert the changes to last modified
+git reset
+src/test/groovy/com/aexp/kyc/thirdpartymanager/action/SendThirdPartySubscriptionActionSpec.groovy
+git checkout
+src/test/groovy/com/aexp/kyc/thirdpartymanager/action/SendThirdPartySubscriptionActionSpec.groovy
+
+## To undo/remove last commit from GIT (pushed the commit)
+git reset --hard HEAD~1
+git push -f origin IKR-4439
+
+## To clone a remote repository
+git clone https://stash.aexp.com/stash/scm/~kkmehra/pp_image_onedata.git
+
+## To check the status of your file changes
+git status
+
+## add the file in staging area
+git add filename.javagit add . // add all files to staging area
+
+## To commit the file with message
+git commit -m 'your commit message'
+
+## To push the file from your local commit to remote repository
+git push
+
+## Pull the changes from remote
+git pull origin develop
+
+## To push into repo
+git push origin feature/Pp_OneData_Spec --force
+
+## To abort the changes
+git rebase --abort
+
+## difference of your changes
+git diff src/test/groovy/com/aexp/kyc/thirdpartymanager/action/SendThirdPartyMatchRequestActionSpec.groovy
+
+## difference of staged file
+git diff --staged src/test/groovy/com/aexp/kyc/thirdpartymanager/action/SendThirdPartyMatchRequestActionSpec.groovy
+
+## switch branch
+git checkout develop
+--
+
+C:\workspace\kyc-ngdm>git cherry -v
++ f2bb8059115110c4f5db006a32c77e462c2a3b02 null action
+git show f2bb8059115110c4f5db006a32c77e462c2a3b02
+C:\workspace\kyc-ngdm>git reset --hard HEAD~1
+HEAD is now at 579741b6 Merge branch 'IKR-5728' of ssh://stash.aexp.com/aim200004856/kyc-ngdm into IKR-5728
+
+## To undo/remove last commit from GIT (pushed the commit)
+git reset --hard HEAD~1
+git push -f origin IKR-4439
+
+## To revert the latest commit and discard changes in the committed file do (pushed the commit):-
+git reset --hard HEAD~1
+then check locally if the changes deleted and then pushed it to branch.
+git push -f origin master
+
+## Git switch branch without discarding local changes
+git stash -- to save your uncommited changes
+git stash list --to list your saved uncommited stashes
+
+switch to different branch
+git stash apply -- When you want to pull them back use
+
+## Create remote branch using git
+git checkout -b IKR-7618 --Create a new branch and check it out
+git push origin IKR-7618 --push the branch to remote
+
+## Best and safe way to merge branch
+git checkout develop
+git pull
+git checkout feature/IKR-1234
+git merge develop
+
+## if you want to reset the last commit (committed but didn't push, you'll find the changes as uncommitted local modifications in your working copy)
+git reset --soft HEAD~1
+
+## squash the commit into one
+git rebase -i HEAD~6
+enter i to go in editor mode
+press s to squash the commit to remove and merge with the one to pick (basically replace s with pick for the one to remove)
+after done with s
+press esc then  : + w + q
+edit the comment message which you want to retain and remove other
+again press esc then : + w + q
+all done, finally force push the changes
+
+
+## Steps to push remote repo to github from scratch.
+Prerequisite :- add SSH key at the root settings of github.
+1. create a repo in github with the same name which is there in local
+2. open terminal type 'git init'
+3. git remote set-url origin git@github.com:kriteshmehra/SpareParts.git
+4. git add .
+5. git commit -m "first commit kk"
+6. git branch -M main
+7. git push -u origin main
+All done
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+Default for XWin
+
+Debugging :
+line by line -Step over / into F8 / F7
+debug to debug ALT + F9
+Evaluate expression Alt + F8
+Resume program F9
+Toggle breakpoint Ctrl + F8
+View breakpoints Ctrl + Shift + F8
+Usage Search
+Find usages / Find usages in file Alt + F7 / Ctrl + F7
+Highlight usages in file Ctrl + Shift + F7
+Show usages Ctrl + Alt + F7
+Search / Replace
+Search everywhere Double Shift
+Find Ctrl + F
+Find next / previous F3 / Shift + F3
+Replace Ctrl + R
+Find in path Ctrl + Shift + F
+Select next occurrence Alt + J
+Editing
+Basic code completion Ctrl + Space
+Smart code completion Ctrl + Shift + Space
+Complete statement Ctrl + Shift + Enter
+Parameter info of a method Ctrl + P
+Undo Ctrl + Z
+Redo Ctrl + Shift + Z
+Move a line up and Down ctrl + shift + Up/down
+Tabs: No. 1 Productivity Killer
+navigate to recent files CTRL + E
+navigate to recent edited files Shift + Ctrl + E
+Extending and Shrinking Selection
+extend selection Ctrl + W
+shrink selection Shift + Ctrl + W
+Duplicating and Deleting Line
+DUPLICATE current line ctrl + D
+DELETE the current line shift + DELETE
+Commenting and Block Commenting Code
+comment or uncomment current selection Ctrl + /
+block comment or uncomment current selection Shift + Ctrl + /
+Navigation
+navgate to class, partial Match, Camel hump and Wildcard search Ctrl + N
+navigate back Ctrl + Alt + <-navigate to symbol Shift + Ctrl + Alt + N
+navigate to file Shift + Ctrl + N
+Smart Code Completion I
+Shift + Ctrl + Space to invoke smart code completion
+-After the new keyword in an object declaration.
+-In the list of parameters ofa method call.
+-In return statements.
+Documentation lookup
+Quick documentation lookup Ctrl + Q
+Brief Info Ctrl + mouseEditing
+Generate getter and setter, constructor, equals and hascode methods - ALT + INSERT
+Override Methods - CTRL + O
+Implement methods Ctrl + I
+Surround with… try catch Ctrl + Alt + T
+Show intention actions and quick-fixes Alt + Enter
+Reformat code/ formatting/format Ctrl + Alt + L
+Optimize imports Ctrl + Alt + O
+Auto-indent line(s) Ctrl + Alt + I
+Cut current line to clipboard Ctrl+ X, Shift+ Delete
+Paste from recent buffers... Ctrl + Shift + V
+Delete line at caret Ctrl + Y
+Smart line join Ctrl + Shift + J
+rename, refactor Shift + F6
