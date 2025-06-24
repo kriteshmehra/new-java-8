@@ -12,7 +12,7 @@ public class StringCompare {
             System.out.println("str1 == str2"); //str1 == str2
         }
         if (str1.equals(str2)){
-            System.out.println("str1.equals(str2)"); //str1.equals(str2)
+            System.out.println("str1.equals(str2)"); // yes str1.equals(str2)
         }
         if (str3 == str4) {
             System.out.println("str3 == str4"); // False

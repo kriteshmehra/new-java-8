@@ -22,7 +22,7 @@ public class TestMain {
 
 				double a = orders.stream().flatMap(order -> order.getItems().stream()
 						.filter(item -> item.getName().startsWith("A")))
-						.mapToDouble(value -> value.getPrice())
+						.mapToDouble(Item::getPrice)
 						.sum();
 				System.out.println(a);
 		}

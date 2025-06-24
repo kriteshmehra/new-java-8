@@ -17,6 +17,6 @@ public class ChildClass implements ParentClass {
         ChildClass c = new ChildClass();
         ParentClass p = new ChildClass();
         System.out.println(c.test1());
-        //System.out.println(p.test1());
+        System.out.println(p.test());
     }
 }

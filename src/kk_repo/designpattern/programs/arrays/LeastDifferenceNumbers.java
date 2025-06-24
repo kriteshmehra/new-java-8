@@ -18,6 +18,6 @@ public class LeastDifferenceNumbers {
         }
         System.out.println("Numbers with least difference: " + result[0]
             + " and "
-            + result[1]+ " and difference " + minDifference);
+            + result[1]+ " and difference " + minDifference); // 10 & 2
     }
 }

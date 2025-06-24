@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class SortByOccurrence {
     public static void main(String[] args) {
-        List<Integer> input = Arrays.asList(2, 5, 2, 6, 8, 5, 8, 8);
+        List<Integer> input = Arrays.asList(2, 5, 2,7, 6, 8,7, 5, 8, 7,8,7);
         System.out.println("Input: " + input);
         List<Integer> output = sortByOccurrence(input);
         System.out.println("Output: " + output);

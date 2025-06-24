@@ -1,3 +1,4 @@
+/*
 package kk_repo.designpattern.questionsasked;
 
 import java.util.HashMap;
@@ -28,3 +29,4 @@ public class ReplaceWithDollar {
 				return result.toString();
 		}
 }
+*/

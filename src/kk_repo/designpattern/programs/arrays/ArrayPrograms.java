@@ -25,10 +25,10 @@ public class ArrayPrograms {
     }
 
     private static void firstRepeatingChar() {
-        String input = "Feel the need";
+        String input = "afeel the need";
         Set<Integer> seen = new HashSet<>();
         OptionalInt first = input.chars()
-              .filter(i -> seen.add(i))
+              .filter(i -> !seen.add(i))
               .findFirst();
         if (first.isPresent()) {
             System.out.println((char) first.getAsInt());

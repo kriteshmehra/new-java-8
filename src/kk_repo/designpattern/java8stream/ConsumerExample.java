@@ -1,7 +1,5 @@
 package kk_repo.designpattern.java8stream;
 
-import kotlin.text.UStringsKt;
-
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 

@@ -1,5 +1,7 @@
 package kk_repo.designpattern.java8stream;
 
+import java.util.function.Predicate;
+
 class Employee {
     int id;
 
@@ -58,4 +60,5 @@ class Employee {
         return "Id : " + id + ", Name : " + name + ", age : " + age + ", Gender : " + gender + ", Department : "
               + department + ", Year Of Joining : " + yearOfJoining + ", Salary : " + salary;
     }
+
 }

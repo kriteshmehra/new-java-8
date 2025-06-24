@@ -61,11 +61,11 @@ public class StringPrograms {
 
 		//first non-repeating character in a string
 		private static void firstNonRepeatingChar() {
-				String str = "hytqyokt";
+				String str = "gghhytqyokt";
 				Set<Character> st = new HashSet<>();
 				String character1 = str.chars()
 						.mapToObj(value -> (char) value)
-						.filter(character -> st.add(character))
+						.filter(character -> !st.add(character))
 						.findFirst().get().toString();
 				System.out.println("non-repeating character " + character1);
 		}

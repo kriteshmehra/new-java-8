@@ -1,6 +1,6 @@
 package kk_repo.designpattern.programs.string;
 
-class PalindromeExample{
+class PalindromeExample {
 
     private static void checkString() {
         String str = "Radar", reverseStr = "";
@@ -17,10 +17,10 @@ class PalindromeExample{
     }
 
     private static void checkNumber() {
-        int n=121;//It is the number variable to be checked for palindrome
-        int r,sum=0,temp;
-        temp=n;
-        while(n>0){
+        int n = 121; // It is the number variable to be checked for palindrome
+        int r, sum = 0, temp;
+        temp = n;
+        while(n>0) {
             r=n%10;  //getting remainder
             sum=(sum*10)+r;
             n=n/10;
@@ -30,7 +30,7 @@ class PalindromeExample{
         else
             System.out.println(temp + " not palindrome number");
     }
-    public static void main(String[] args){
+    public static void main(String[] args) {
         checkString();
         checkNumber();
     }
