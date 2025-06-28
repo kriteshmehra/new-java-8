@@ -1,6 +1,6 @@
 package kk_repo.designpattern.string;
 
-public class StringCount {
+public class A2b2c2a2 {
     public static void main(String[] args) {
         String input = "aabbbccaa";
         String output = compressString(input);

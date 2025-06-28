@@ -43,6 +43,13 @@ public class StringPrograms {
             output = output + revWord + " ";
         }
         System.out.println(output);
+        //using java -8
+        String result = Arrays.stream(str.split(" "))
+            .map(word -> new StringBuilder(word).reverse().toString())
+            .collect(Collectors.joining(" "));
+
+        System.out.println("Reversed words using java-8: " + result);
+
     }
 
     private static void findFirstNonRepeatedChar1() {
