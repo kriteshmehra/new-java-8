@@ -7,7 +7,7 @@ public class ArrayTest {
 				int[] int1 = {2,3,4,7};
 				int[] int2 = {8,9,7,4};
 				int[] int3 = {3,1,6,4};
-				System.out.println(Arrays.toString(mergeAndSortJava8(int1, int2, int3)));
+				System.out.println(Arrays.toString(mergeAndSortJava8(int1, int2, int3))); //[1, 2, 3, 3, 4, 4, 4, 6, 7, 7, 8, 9]
 		}
 
 		private static int[] mergeAndSortJava8(int[]... int3) {

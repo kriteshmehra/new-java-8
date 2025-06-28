@@ -21,17 +21,17 @@ public class ArrayPrograms {
                 min = j;
             }
         }
-        System.out.println("max= " + max + " min= "+min);
+        System.out.println("max= " + max + " min= "+min); //max= 2004 min= 1
     }
 
     private static void firstRepeatingChar() {
-        String input = "afeel the need";
+        String input = "feel the need";
         Set<Integer> seen = new HashSet<>();
         OptionalInt first = input.chars()
               .filter(i -> !seen.add(i))
               .findFirst();
         if (first.isPresent()) {
-            System.out.println((char) first.getAsInt());
+            System.out.println((char) first.getAsInt()); //e
         }
 }
 }
